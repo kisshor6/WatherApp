@@ -34,7 +34,7 @@ fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=' + city, op
     .catch(err => console.error(err));
 
 }
-
+getWeather("kathmandu");
 submit.addEventListener("click", (e)=>{
     e.preventDefault()
     getWeather(city.value)
